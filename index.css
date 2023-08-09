@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family:'Poppins' , sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+nav h1{
+    font-size: 50px;
+    color: red;
+    border-bottom:2px solid red;
+    border-radius: 40px;
+    font-family: 'Courgette' , cursive;
+    margin-top:3px;
+
+}
+
+ul{
+    display: flex;
+
+}
+
+ul li{
+    list-style: none;
+    margin-inline:35px;
+    margin-top: 12px;
+}
+
+.btn button{
+    width: 100px;
+    height: 36px;
+    border: 3px solid red ;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius:20px;
+    margin-top: 12px;
+    margin-left: 12px;
+    margin-right: 20px;
+}
+
+.main-div{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+
+}
+.main-div .head
+{
+    font-size: 55px;
+    margin-left: 80px;
+    margin-top: 70px;
+}
+
+.head button{
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px  ;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.head button:hover{
+    background-color: black;
+    border: 3px solid red;
+    cursor: pointer;
+
+}
+.img img{
+    margin-right: 50px;
+    width: 670px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
